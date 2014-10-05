@@ -1,0 +1,23 @@
+/* Base16 Railscasts
+Scheme: Ryan Bates (http://railscasts.com) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #2b2b2b; color: #e6e1dc }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #272935; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #2b2b2b; }
+pre.sourceCode { background-color: #2b2b2b; line-height: 125% }
+td.nums pre { background-color: #272935; line-height: 125% }
+code.sourceCode span.kw { color: #6d9cbe; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #b6b3eb} /* Keyword.Type */
+code.sourceCode span.dv { color: #cc7833 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #cc7833 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #cc7833 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #a5c261} /* Literal.String.Char */
+code.sourceCode span.st { color: #a5c261 } /* Literal.String */
+code.sourceCode span.co { color: #5a647e } /* Comment */
+code.sourceCode span.ot { color: #bc9458 } /* Comment.Preproc */
+code.sourceCode span.al { color: #b6b3eb } /* Generic.Error */
+code.sourceCode span.fu { color: #ffc66d } /* Name.Function */
+code.sourceCode span.re { color: #519f50}
+code.sourceCode span.er { color: #da4939; border: 1px solid #b6b3eb } /* Error */

@@ -1,0 +1,49 @@
+/**
+ * Base16 Mocha Light
+ *
+ * @author Chris Kempson (http://chriskempson.com)
+ *
+ * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
+ * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+ */
+pre {
+    background-color: #f5eeeb;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 10px;
+    color: #3B3228;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+pre, code {
+    font-family: 'Monaco', courier, monospace;
+}
+
+pre .comment {
+    color: #b8afad;
+}
+
+pre .variable.global, pre .variable.class, pre .variable.instance {
+    color: #cb6077; /* red */
+}
+
+pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
+    color: #d28b71; /* orange */
+}
+
+pre .constant, pre .entity, pre .entity.class, pre .support {
+    color: #f4bc87; /* yellow */
+}
+
+pre .constant.symbol, pre .string {
+    color: #beb55b; /* green */
+}
+
+pre .entity.function, pre .support.css-property, pre .selector {
+    color: #8ab3b5; /* blue */
+}
+
+pre .keyword, pre .storage {
+    color: #a89bb9; /* purple */
+}

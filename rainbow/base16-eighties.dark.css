@@ -1,0 +1,49 @@
+/**
+ * Base16 Eighties Dark
+ *
+ * @author Chris Kempson (http://chriskempson.com)
+ *
+ * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
+ * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+ */
+pre {
+    background-color: #2d2d2d;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 10px;
+    color: #f2f0ec;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+pre, code {
+    font-family: 'Monaco', courier, monospace;
+}
+
+pre .comment {
+    color: #747369;
+}
+
+pre .variable.global, pre .variable.class, pre .variable.instance {
+    color: #f2777a; /* red */
+}
+
+pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
+    color: #f99157; /* orange */
+}
+
+pre .constant, pre .entity, pre .entity.class, pre .support {
+    color: #ffcc66; /* yellow */
+}
+
+pre .constant.symbol, pre .string {
+    color: #99cc99; /* green */
+}
+
+pre .entity.function, pre .support.css-property, pre .selector {
+    color: #6699cc; /* blue */
+}
+
+pre .keyword, pre .storage {
+    color: #cc99cc; /* purple */
+}

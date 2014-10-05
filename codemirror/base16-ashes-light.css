@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Ashes Light
+    Author:     Jannik Siebert (https://github.com/janniks)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-ashes-light.CodeMirror {background: #F3F4F5; color: #393F45;}
+.cm-s-base16-ashes-light div.CodeMirror-selected {background: #DFE2E5 !important;}
+.cm-s-base16-ashes-light .CodeMirror-gutters {background: #F3F4F5; border-right: 0px;}
+.cm-s-base16-ashes-light .CodeMirror-linenumber {color: #ADB3BA;}
+.cm-s-base16-ashes-light .CodeMirror-cursor {border-left: 1px solid #747C84 !important;}
+
+.cm-s-base16-ashes-light span.cm-comment {color: #C79595;}
+.cm-s-base16-ashes-light span.cm-atom {color: #C795AE;}
+.cm-s-base16-ashes-light span.cm-number {color: #C795AE;}
+
+.cm-s-base16-ashes-light span.cm-property, .cm-s-base16-ashes-light span.cm-attribute {color: #95C7AE;}
+.cm-s-base16-ashes-light span.cm-keyword {color: #C7AE95;}
+.cm-s-base16-ashes-light span.cm-string {color: #AEC795;}
+
+.cm-s-base16-ashes-light span.cm-variable {color: #95C7AE;}
+.cm-s-base16-ashes-light span.cm-variable-2 {color: #AE95C7;}
+.cm-s-base16-ashes-light span.cm-def {color: #C7C795;}
+.cm-s-base16-ashes-light span.cm-error {background: #C7AE95; color: #747C84;}
+.cm-s-base16-ashes-light span.cm-bracket {color: #393F45;}
+.cm-s-base16-ashes-light span.cm-tag {color: #C7AE95;}
+.cm-s-base16-ashes-light span.cm-link {color: #C795AE;}
+
+.cm-s-base16-ashes-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

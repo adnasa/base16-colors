@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Eighties Light
+    Author:     Chris Kempson (http://chriskempson.com)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-eighties-light.CodeMirror {background: #f2f0ec; color: #393939;}
+.cm-s-base16-eighties-light div.CodeMirror-selected {background: #e8e6df !important;}
+.cm-s-base16-eighties-light .CodeMirror-gutters {background: #f2f0ec; border-right: 0px;}
+.cm-s-base16-eighties-light .CodeMirror-linenumber {color: #a09f93;}
+.cm-s-base16-eighties-light .CodeMirror-cursor {border-left: 1px solid #747369 !important;}
+
+.cm-s-base16-eighties-light span.cm-comment {color: #d27b53;}
+.cm-s-base16-eighties-light span.cm-atom {color: #cc99cc;}
+.cm-s-base16-eighties-light span.cm-number {color: #cc99cc;}
+
+.cm-s-base16-eighties-light span.cm-property, .cm-s-base16-eighties-light span.cm-attribute {color: #99cc99;}
+.cm-s-base16-eighties-light span.cm-keyword {color: #f2777a;}
+.cm-s-base16-eighties-light span.cm-string {color: #ffcc66;}
+
+.cm-s-base16-eighties-light span.cm-variable {color: #99cc99;}
+.cm-s-base16-eighties-light span.cm-variable-2 {color: #6699cc;}
+.cm-s-base16-eighties-light span.cm-def {color: #f99157;}
+.cm-s-base16-eighties-light span.cm-error {background: #f2777a; color: #747369;}
+.cm-s-base16-eighties-light span.cm-bracket {color: #393939;}
+.cm-s-base16-eighties-light span.cm-tag {color: #f2777a;}
+.cm-s-base16-eighties-light span.cm-link {color: #cc99cc;}
+
+.cm-s-base16-eighties-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

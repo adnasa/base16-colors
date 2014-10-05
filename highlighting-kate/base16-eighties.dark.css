@@ -1,0 +1,23 @@
+/* Base16 Eighties
+Scheme: Chris Kempson (http://chriskempson.com) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #2d2d2d; color: #d3d0c8 }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #393939; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #2d2d2d; }
+pre.sourceCode { background-color: #2d2d2d; line-height: 125% }
+td.nums pre { background-color: #393939; line-height: 125% }
+code.sourceCode span.kw { color: #6699cc; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #cc99cc} /* Keyword.Type */
+code.sourceCode span.dv { color: #f99157 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #f99157 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #f99157 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #99cc99} /* Literal.String.Char */
+code.sourceCode span.st { color: #99cc99 } /* Literal.String */
+code.sourceCode span.co { color: #747369 } /* Comment */
+code.sourceCode span.ot { color: #d27b53 } /* Comment.Preproc */
+code.sourceCode span.al { color: #cc99cc } /* Generic.Error */
+code.sourceCode span.fu { color: #ffcc66 } /* Name.Function */
+code.sourceCode span.re { color: #66cccc}
+code.sourceCode span.er { color: #f2777a; border: 1px solid #cc99cc } /* Error */

@@ -1,0 +1,166 @@
+/*
+
+    Name:       Base16 Ashes Light
+    Author:     Jannik Siebert (https://github.com/janniks)
+
+    Prettify template by Jan T. Sott (https://github.com/idleberg/)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+/* plain text */
+.pln {
+  color: #1C2023;
+}
+
+@media screen {
+  /* string content */
+  .str {
+    color: #95C7AE;
+  }
+
+  /* a keyword */
+  .kwd {
+    color: #C795AE;
+  }
+
+  /* a comment */
+  .com {
+    color: #ADB3BA;
+  }
+
+  /* a type name */
+  .typ {
+    color: #AE95C7;
+  }
+
+  /* a literal value */
+  .lit {
+    color: #C7C795;
+  }
+
+  /* punctuation */
+  .pun {
+    color: #1C2023;
+  }
+
+  /* lisp open bracket */
+  .opn {
+    color: #1C2023;
+  }
+
+  /* lisp close bracket */
+  .clo {
+    color: #1C2023;
+  }
+
+  /* a markup tag name */
+  .tag {
+    color: #C7AE95;
+  }
+
+  /* a markup attribute name */
+  .atn {
+    color: #C7C795;
+  }
+
+  /* a markup attribute value */
+  .atv {
+    color: #95AEC7;
+  }
+
+  /* a declaration */
+  .dec {
+    color: #C7C795;
+  }
+
+  /* a variable name */
+  .var {
+    color: #C7AE95;
+  }
+
+  /* a function name */
+  .fun {
+    color: #AE95C7;
+  }
+}
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str {
+    color: #006600;
+  }
+
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  .lit {
+    color: #004444;
+  }
+
+  .pun, .opn, .clo {
+    color: #444400;
+  }
+
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .atn {
+    color: #440044;
+  }
+
+  .atv {
+    color: #006600;
+  }
+}
+/* Style */
+pre.prettyprint {
+  background: F3F4F5;
+  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid #1C2023;
+  padding: 10px;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+  /* */
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+  /* */
+}

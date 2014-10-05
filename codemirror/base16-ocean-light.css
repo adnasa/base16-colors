@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Ocean Light
+    Author:     Chris Kempson (http://chriskempson.com)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-ocean-light.CodeMirror {background: #eff1f5; color: #343d46;}
+.cm-s-base16-ocean-light div.CodeMirror-selected {background: #dfe1e8 !important;}
+.cm-s-base16-ocean-light .CodeMirror-gutters {background: #eff1f5; border-right: 0px;}
+.cm-s-base16-ocean-light .CodeMirror-linenumber {color: #a7adba;}
+.cm-s-base16-ocean-light .CodeMirror-cursor {border-left: 1px solid #65737e !important;}
+
+.cm-s-base16-ocean-light span.cm-comment {color: #ab7967;}
+.cm-s-base16-ocean-light span.cm-atom {color: #b48ead;}
+.cm-s-base16-ocean-light span.cm-number {color: #b48ead;}
+
+.cm-s-base16-ocean-light span.cm-property, .cm-s-base16-ocean-light span.cm-attribute {color: #a3be8c;}
+.cm-s-base16-ocean-light span.cm-keyword {color: #bf616a;}
+.cm-s-base16-ocean-light span.cm-string {color: #ebcb8b;}
+
+.cm-s-base16-ocean-light span.cm-variable {color: #a3be8c;}
+.cm-s-base16-ocean-light span.cm-variable-2 {color: #8fa1b3;}
+.cm-s-base16-ocean-light span.cm-def {color: #d08770;}
+.cm-s-base16-ocean-light span.cm-error {background: #bf616a; color: #65737e;}
+.cm-s-base16-ocean-light span.cm-bracket {color: #343d46;}
+.cm-s-base16-ocean-light span.cm-tag {color: #bf616a;}
+.cm-s-base16-ocean-light span.cm-link {color: #b48ead;}
+
+.cm-s-base16-ocean-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
